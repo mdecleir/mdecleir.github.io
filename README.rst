@@ -22,4 +22,4 @@ the terms of the Creative Commons Public License (see the ``LICENSE.txt`` file f
 Design
 ------
 
-This website is designed based on the Prologue template by `HTML5 UP <https://html5up.net>`_, which is free for personal and commercial use under the CCA 3.0 license (see html5up.net/license for more information).
+This website is designed based on the Prologue template by `HTML5 UP <https://html5up.net>`_, which is free for personal and commercial use under the CCA 3.0 license (see https://html5up.net/license for more information).
