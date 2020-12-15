@@ -6,8 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Prologue by HTML5 UP</title>
-		<meta charset="utf-8" />
+		<title>Dr. Marjorie Decleir</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
@@ -29,8 +28,17 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#research" id="research-link"><span class="icon solid fa-th">Research</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#research" id="research-link"> <!--class = "dropdown-btn"--><span class="icon solid fa-th">Research</span></a>
+										<!--<div class = "dropdown-content">
+											<a href = "mdecleir_research.html#extinction_curves">Dust Extinction Curves</a>
+											<a href = "mdecleir_research.html#depletions">Dust Depletions</a>
+											<a href = "mdecleir_research.html#dustking">DustKING</a>
+										</div>-->
+									</li>
+								<li><a href="#publications" id="publications-link"><span class="icon solid fa-scroll">Publications</span></a></li>
+								<li><a href="#obs" id="obs-link"><span class="icon solid fa-chart-area">Observations & Data</span></a></li>
+								<li><a href="#code" id="code-link"><span class="icon solid fa-code">Code</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -41,11 +49,9 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/mdecleir" class="icon brands fa-github" target = "_blank"><span class="label">Github</span></a></li>
+							<li><a href = "https://orcid.org/0000-0001-9462-5543"  class = "icon brands fa-orcid" target = "_blank"><span class="label">Orcid</span></a></li>
+							<li><a href="mailto:mdecleir@stsci.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>
@@ -61,19 +67,30 @@
 
 							<header>
 								<h2 class="alt">Hi! I'm <strong>Marjorie Decleir</strong>, a postdoctoral researcher in <br />
-								 the <a href="https://sites.google.com/view/ism-stsci/home">ISM* group at the <a href="https://www.stsci.edu">Space Telescope Science Institute</a>.</h2>
+								 the <a href="https://sites.google.com/view/ism-stsci/home" target = "_blank">ISM*</a> group at the
+								 <a href="https://www.stsci.edu" target = "_blank">Space Telescope Science Institute</a>.</h2>
 								<p>This website is under development, please bear with me.</p>
 							</header>
+						</div>
+					</section>
 
-							<footer>
-								<a href="#research" class="button scrolly">Magna Aliquam</a>
-							</footer>
+				<!-- About Me -->
+					<section id="about" class="two">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<img src="images/Marjorie_observatory.jpg" alt="" width = "500px"/>
+
+							<p>My name is Marjorie Decleir. I was born and raised in Belgium. It was at the age of 16 that I discovered my interest for science and astronomy in particular, while attending evening courses at a <a href="http://www.cozmix.be/en/home">public observatory</a>. This encouraged me to study Physics and Astronomy at <a href="https://www.ugent.be/we/physics-astronomy/en" target = "_blank">Ghent University</a>, where I obtained my Master's degree in 2015. I pursued my passion for astronomy and did a PhD at the same <a href = "https://www.ugent.be/we/physics-astronomy/en/research/astronomy" target = "_blank">University</a>, as an FWO (Research Foundation - Flanders) fellow. I worked with <a href="https://www.ugent.be/en/research/research-ugent/trackrecord/trackrecord-h2020/erc-h2020/dustorigin.htm" target="_blank">Prof. Ilse De Looze</a> and <a href="https://users.ugent.be/~mbaes/Home.html" target="_blank">Prof. Maarten Baes</a> as my supervisors. After graduating in november 2019, my husband and I moved to the United States, and I started my first postdoc position at Space Telescope in Baltimore, MD. I am part of the ISM* group and work with <a href = "https://karllark.github.io/" target = "_blank">Dr. Karl Gordon</a>. </p>
 
 						</div>
 					</section>
 
 				<!-- research -->
-					<section id="research" class="two">
+					<section id="research" class="three">
 						<div class="container">
 
 							<header>
@@ -85,13 +102,13 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/average_extinction.pdf" alt="" /></a>
+										<a href="mdecleir_research.html#extinction curves" class="image fit"><img src="images/average_extinction.pdf" alt="average_extinction.pdf" /></a>
 										<header>
 											<h3>Dust extinction curves</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="mdecleir_research.html#depletions" class="image fit" target = "_top"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Dust Depletions</h3>
 										</header>
@@ -99,7 +116,7 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="mdecleir_research.html#dustking" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
 										<header>
 											<h3>DustKING: Dust attenuation curves of nearby galaxies</h3>
 										</header>
@@ -130,23 +147,53 @@
 						</div>
 					</section>
 
-				<!-- About Me -->
-					<section id="about" class="three">
+				<!-- Publications -->
+					<section id="publications" class="four">
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>Publications</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/Marjorie_observatory.jpg" alt="" /></a>
+							<p><a href = "https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-9462-5543&sort=date%20desc%2C%20bibcode%20desc" target="_blank">
+								My publications</a>.</p>
 
-							<p>My name is Marjorie Decleir. I was born and raised in Belgium. It was at the age of 16 that I discovered my interest for science and astronomy in particular, while attending evening courses at a public observatory. This encouraged me to study Physics and Astronomy at Ghent University, where I obtained my Master's degree in 2015. I pursued my passion for astronomy and did a PhD at the same University, as an FWO (Research Foundation - Flanders) fellow. I worked with Prof. Ilse De Looze and Prof. Maarten Baes as my supervisors. After graduating in november 2019, my husband and I moved to the United States, and I started my first postdoc position at Space Telescope in Baltimore, MD. I am part of the ISM* group and work with Dr. Karl Gordon. </p>
+						</div>
+					</section>
+
+
+				<!-- Observations & Data -->
+					<section id="obs" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Observations & Data</h2>
+							</header>
+
+							<img src="" alt="" width = "500px"/>
+
+							<p></p>
+
+						</div>
+					</section>
+
+				<!-- Code -->
+					<section id="code" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Code</h2>
+							</header>
+
+							<img src="" alt="" width = "500px"/>
+
+							<p><a href="https://github.com/mdecleir/DRESSCode" target="_blank">DRESSCode</a></p>
 
 						</div>
 					</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<section id="contact" class="one dark">
 						<div class="container">
 
 							<header>
@@ -155,6 +202,18 @@
 
 							<p>Please contact me if you are interested in my research or have questions about my work.</p>
 
+				          <h3>Address</h3>
+				          Space Telescope Science Institute<br />
+				          3700 San Martin Drive<br />
+				          Baltimore, MD 21218
+
+				          <h3>E-mail</h3>
+				          <a href = "mailto:mdecleir@stsci.edu">mdecleir@stsci.edu</a>
+
+				          <h3>Phone</h3>
+				          (410) 338-4303
+
+							<!--
 							<form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
@@ -167,7 +226,7 @@
 									</div>
 								</div>
 							</form>
-
+							-->
 						</div>
 					</section>
 
@@ -178,7 +237,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Marjorie Decleir. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 			</div>
@@ -191,6 +250,45 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!--<script>
+				/* When the user clicks on the button,
+				toggle between hiding and showing the dropdown content
+				function myFunction() {
+  				document.getElementById("myDropdown").classList.toggle("show");
+				}
+
+				// Close the dropdown menu if the user clicks outside of it
+				window.onclick = function(event) {
+  				if (!event.target.matches('.dropbtn')) {
+    				var dropdowns = document.getElementsByClassName("dropdown-content");
+	    			var i;
+    				for (i = 0; i < dropdowns.length; i++) {
+      				var openDropdown = dropdowns[i];
+      				if (openDropdown.classList.contains('show')) {
+        				openDropdown.classList.remove('show');
+		      		}
+    				}
+  				}
+				}*/
+
+				/* Loop through all dropdown buttons to toggle between hiding
+				and showing its dropdown content - This allows the user to have
+				multiple dropdowns without any conflict
+				var dropdown = document.getElementsByClassName("dropdown-btn");
+				var i;
+
+				for (i = 0; i < dropdown.length; i++) {
+  				dropdown[i].addEventListener("click", function() {
+  				this.classList.toggle("active");
+  				var dropdownContent = this.nextElementSibling;
+  				if (dropdownContent.style.display === "block") {
+		  			dropdownContent.style.display = "none";
+  				} else {
+  					dropdownContent.style.display = "block";
+  				}
+  			});
+			}
+		</script>-->
 
 	</body>
 </html>
