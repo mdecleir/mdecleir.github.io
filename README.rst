@@ -16,7 +16,7 @@ License
 -------
 
 This project is Copyright (c) Marjorie Decleir and licensed under
-the terms of the Creative Commons Public License (see the ``LICENSE.txt`` file for more information).
+the terms of the Creative Commons Public License (see the ``LICENSE.txt <https://github.com/mdecleir/mdecleir.github.io/blob/master/LICENSE.txt>``_ file for more information).
 
 
 Design
