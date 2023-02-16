@@ -126,7 +126,8 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
+		font-weight: 600;
 		letter-spacing: -1px;
 	}
 
@@ -2236,7 +2237,10 @@ input, select, textarea {
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: #fff;
+					margin-left: -180px;
+					margin-right: -180px;
+
 				}
 
 				#main > section.dark strong {
@@ -2260,8 +2264,8 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #000000;
+				background-image: url("../../images/Carina.png");
 			}
 
 			#main > section.two {
